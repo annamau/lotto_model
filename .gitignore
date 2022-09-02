@@ -1,3 +1,4 @@
 env
 data/lotto_numbers.csv
 data_scrapper/__pycache__/
+model/lotto_model.ipynb
