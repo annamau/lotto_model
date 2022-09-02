@@ -1,1 +1,3 @@
 env
+data/lotto_numbers.csv
+data_scrapper/__pycache__/
