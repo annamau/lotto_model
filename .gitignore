@@ -1,4 +1,4 @@
 env
-data/lotto_numbers.csv
+data
 data_scrapper/__pycache__/
-model/lotto_model.ipynb
+model/.ipynb_checkpoints
