@@ -3,6 +3,7 @@ import requests
 import json as js
 from datetime import date as dt
 from tools import get_limit
+import os, os.path
 
 def get_lotto_numbers():
     # Change user agent to match the current session
@@ -47,7 +48,7 @@ def get_lotto_numbers():
         row = [date, combination_raw]
         row[1:1] = combination
         df.loc[len(df.index)] = row
-    df.to_csv("./data/lotto_numbers.csv", index=False)
+    df.to_csv(os.path.join('../data','lotto_numbers.csv'), index=False)
     print("CSV created!!")
 
 if __name__ ==  '__main__':
